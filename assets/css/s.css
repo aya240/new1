@@ -1,0 +1,101 @@
+/*---------- background of body---------------*/
+body::before {
+  content: "";
+  position: fixed;
+  background: #c10000 
+ url("../img/12.jpeg") no-repeat ;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+                                        /*********************************/
+                                        
+/*------------- dir of web.....*/
+*
+{
+  direction: rtl;
+  text-align: right
+}
+
+/***************** color of elem header******************/
+
+#header h1 a, #header h1 a:hover ,  #header h2 ,  #header h2 span ,
+
+.nav-menu ul li a , .nav-menu ul li a:hover , .nav-menu .active > a .header , #header .social-links a ,
+.section-title p , .font-italic 
+
+{
+color:#dedede;
+}
+
+
+.nav-menu a:before
+{
+  
+background-color:#000;
+}
+#header .social-links a:hover
+{
+  
+background-color:#444;
+}
+
+
+#header h2 span
+{
+  
+border-bottom:2px solid #000;
+}
+
+/**************************** color of top header ***************8***/
+
+#header.header-top , section .container
+{
+  background:rgba(70 , 70 ,70 , 0.9);
+}
+
+.section-title h2::after 
+{
+  background:#000;
+}
+
+.about-me .content h3  , .icofont-rounded-right:before , .icofont-users-alt-5:before , .icofont-live-support:before ,
+.icofont-document-folder:before , .icofont-simple-smile:before
+{
+  
+
+ 
+  color:#000 !important;
+}
+
+
+
+/************************************/
+.services .icon-box .icon , .services .icon-box:hover 
+{
+  
+  background:#ff4949;
+}
+
+.services .icon-box .icon::before:hover
+{
+  
+  background:#999;
+}
+
+
+
+.services .icon-box p{
+  
+text-align: center;}
+
+
+
+
+.services .icon-box
+{
+  
+width: 100%}
