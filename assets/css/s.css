@@ -2,13 +2,14 @@
 body::before {
   content: "";
   position: fixed;
-  background: #c10000 
- url("../img/12.jpeg") no-repeat ;
+  background: #000 
+ url("../img/b1.jpg") no-repeat  ;
   left: 0;
   right: 0;
   top: 0;
-  height: 100%;
   z-index: -1;
+  background-position: center
+  ;
 }
 
                                         /*********************************/
